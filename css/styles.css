@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1vw;
+  max-width: 1000px;
+}
+
+.sexy-flexy {
+  border: 1px solid black;
+  background-color: mistyrose;
+  display: inline-block;
+  height: 200px;
+  margin: 10px;
+  flex:1 1;
+
+}
+
+.sexy-flexy:nth-child(1) {
+  flex-basis: 400px;
+}
+
+.sexy-flexy:nth-child(2) {
+  flex-basis: 200px;
+}
+
+.sexy-flexy:nth-child(3) {
+  flex-basis: 200px;
+}
+
+.sexy-flexy:nth-child(4) {
+  flex-basis: 250px;
+}
+
+.sexy-flexy:nth-child(5) {
+  flex-basis: 250px;
+}
+
+.sexy-flexy:nth-child(6) {
+  flex-basis: 250px;
+}
+
+.sexy-flexy:nth-child(7) {
+  flex-basis: 400px;
+}
+
+.sexy-flexy:nth-child(8) {
+  flex-basis: 200px;
+}
+
+.sexy-flexy:nth-child(9) {
+  flex-basis: 200px;
+}
+
+.sexy-flexy:nth-child(4n+2) {
+  background: thistle;
+}
+
+.sexy-flexy:nth-child(4n+3) {
+  background: aliceblue;
+}
+
+.sexy-flexy:nth-child(4n+4) {
+  background: mintcream;
+}
